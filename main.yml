@@ -1,0 +1,5 @@
+- name: Update respositories and Install VIM package
+  apt:
+    update_cache: yes
+    name: vim
+    state: latest
